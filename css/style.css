@@ -1,0 +1,157 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+header{
+    width: 100%;
+}
+
+footer{
+    background-color: #474747;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    padding: 15px 0;
+    background-color: #E2E7F0;
+    align-items: center;
+    width: 100%;
+    border-bottom: solid black 3px ;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.nav-button {
+    color: white;
+    background-color: #474747;
+    border: solid 2px #474747;
+    padding: 8px 40px;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+
+.nav-button:hover {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 40px;
+}
+
+img{
+    width: 250%;
+}
+
+#product{
+    margin: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#product-discription{
+    margin-top: 200px;
+}
+
+#product-discription p{
+    width: 400px;
+}
+
+button{
+    background-color: #474747;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#product-tekst{
+    border-top: 3px solid black;
+    padding-top: 100px;
+    margin: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+}
+
+#plus-min-punten{
+    background-color: #ADF5CD;
+    width: 400px;
+    padding: 30px;
+}
+
+#Omschrijving{
+    margin-left: 200px;
+}
+
+#Omschrijving p{
+    width: 800px;
+}
+
+#vergelijkbare-producten{
+    padding: 5px 100px 50px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+#vergelijkbare-producten section{
+    text-align: center;
+    height: 320px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    padding: 50px 0;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    flex: 1 1 auto;
+}
+
+#vergelijkbare-producten img{
+    width: 200px;
+    height: 220px;
+} 
+
+#vergelijkbare-producten div{
+    font-size: 30px;
+}
+
+.vergelijkbare-producten{
+    background-color: #D8DDE3;
+    text-align: center;
+}
+
+.vergelijkbare-producten h2{
+    padding-top: 5px;
+}
